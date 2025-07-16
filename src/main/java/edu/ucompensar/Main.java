@@ -11,5 +11,13 @@ public class Main {
         VariableDos = 20;
         System.out.println("variableUno: " + variableUno);
         System.out.println("VariableDos: " + VariableDos);
+
+        boolean variableTF=true;
+        if (variableTF)
+            System.out.println("variableTF: " + variableTF);
+        variableTF=false;
+        if (!variableTF)
+            System.out.println("variableTF modificacda: " + variableTF);
+
     }
 }
