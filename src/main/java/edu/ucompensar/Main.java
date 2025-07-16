@@ -5,5 +5,11 @@ package edu.ucompensar;
 public class Main {
     public static void main(String[] args) {
         System.out.println("mensaje creado en consolo y SUPERVISADO EN GITHUB ");
+
+        int variableUno, VariableDos;
+        variableUno = 10;
+        VariableDos = 20;
+        System.out.println("variableUno: " + variableUno);
+        System.out.println("VariableDos: " + VariableDos);
     }
 }
